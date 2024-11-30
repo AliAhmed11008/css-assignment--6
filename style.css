@@ -1,0 +1,196 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    
+}
+
+header,
+main,
+section {
+    padding: 20px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+  
+    top: 0;
+
+    width: 100%;
+
+    z-index: 1000;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   
+}
+
+
+.header img {
+    height: 80px;
+    width: auto;
+}
+
+.header-actions {
+    display: flex;
+    gap: 30px;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.login {
+    background-color: white;
+    border: 2px solid #ccc;
+    transition-property: all;
+}
+
+button.sign {
+    background-color: #FF2B85;
+    color: white;
+    border: 2px solid #FF2B85;
+    transition-property: all;
+}
+
+button.login:hover {
+    background-color: #F0F2F2;
+    width: 120px;
+    height: 50px;
+}
+
+button.sign:hover {
+    background-color: #C21760;
+    width: 120px;
+    height: 50px;
+}
+
+
+.centre {
+    background-color: #F7F7F7;
+    text-align: center;
+    padding-top: 50px;
+    height: auto;
+    width: auto;
+    margin-top: 5%;
+}
+
+.centre h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.input-container input {
+    height: 40px;
+    width: 300px;
+    padding: 0 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+}
+
+.find-food {
+    height: 40px;
+    width: 120px;
+    margin-left: 10px;
+    background-color: #FF2B85;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.find-food:hover {
+    background-color: #C21760;
+    
+}
+
+
+.pic img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 550px;
+}
+
+.mid-centre {
+    position: relative;
+}
+
+.mid-centre h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+
+}
+
+.para {
+    margin-right: 300px;
+    margin-left: 90px;
+    top: 80%;
+    background-color: white;
+    position: absolute;
+    padding: 2% 2%;
+    border-radius: 7%;
+    box-shadow: 2px 2px 5px #cecece;
+
+
+}
+
+.para button {
+    background-color: #FF2B85;
+    color: white;
+    border: 2px solid #FF2B85;
+
+}
+
+.para button:hover {
+    background-color: #C21760;
+
+}
+
+.city {
+    margin-top: 10%;
+    margin-left: 2%;
+   
+}
+
+.cities {
+    display: flex;
+    gap: 50px;
+}
+
+.img img {
+    margin-top: 10px;
+    height: 250px;
+    width: 300px;
+    border-radius: 5%;
+}
